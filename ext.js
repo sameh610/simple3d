@@ -1690,9 +1690,6 @@ void main() {
     return chunkedArray;
   }
 
-  if (!Scratch.extensions.unsandboxed)
-    throw new Error("Simple 3D extension must be run unsandboxed");
-
   const ArgumentType = Scratch.ArgumentType;
   const BlockType = Scratch.BlockType;
   const Cast = Scratch.Cast;
